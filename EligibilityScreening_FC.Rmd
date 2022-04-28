@@ -1,0 +1,523 @@
+---
+title: "Eligibility Screening: 2-Alternative-Forced-Choice"
+author: "Jutta Pieper"
+date: "28.04.2022"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: 
+      collapsed: true
+    toc_depth: 2
+    keep_md: yes
+bibliography: references/bibliography.bibtex
+csl: references/apa.csl
+link-citations: true
+---
+
+```{r setup, echo = FALSE, include=TRUE, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(DT)
+options(DT.options = list(dom = 'Blfrtip', pageLength = 5, searching = FALSE, buttons = c( 'csv', 'excel', 'pdf'))) 
+library(ggpubr)
+library(knitr)
+library(kableExtra)
+options(knitr.kable.NA = "")
+kable <- function(data, ...) {
+   knitr::kable(data, digits=3, ...) %>% kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
+}
+knit_print.data.frame <- function(x, ...) {
+  res <- paste(c("", "", kable(x)), collapse = "\n")
+  asis_output(res)
+}
+registerS3method("knit_print", "data.frame", knit_print.data.frame)
+```
+
+Read in questionnaire:
+
+```{r read_merge_data}
+filler_items = read.csv(
+  "./judgments/all/ForcedChoice_filler.csv", fileEncoding = "UTF-8")
+test_items = read.csv("./judgments/all/ForcedChoice_test.csv", fileEncoding = "UTF-8") %>% 
+  mutate(ITEM_FUNCTION = "test")
+questionnaire = bind_rows(filler_items, test_items) %>%
+   mutate_at(.vars = c("ITEM_FUNCTION", "workerId"), .funs = as_factor) 
+```
+
+
+```{r init_worker_profile, echo = FALSE}
+## Store all gathered information in data.frame for worker overview and final decision 
+worker_profile = data.frame(
+  workerId = character(), 
+  criterion = character(), 
+  score = numeric(), 
+  accept = logical())
+```
+
+# Progress (incomplete submissions) 
+
+We require that at least 90\% of the questionnaire has been completed. 
+(Note: we assume that there are no missing trials due to data loss / technical errors).
+
+```{r available_trials}
+available_trials = questionnaire %>%
+  group_by(workerId) %>%
+  summarise(trials = n(), 
+            trials_prop = n()/length(unique(questionnaire$trial_index))) %>%
+  mutate(accept = ifelse(trials_prop < 0.9, FALSE, TRUE)) %>%
+  arrange(trials_prop)
+```
+
+Let's check whether there are participants that left the questionnaire prematurely:
+
+```{r}
+available_trials %>% filter(trials_prop < 1) %>% kable() 
+```
+
+```{r wp_available, echo = FALSE}
+worker_profile = rbind(worker_profile, 
+                       available_trials %>% 
+                         select(workerId, trials_prop, accept) %>% 
+                         rename(score = trials_prop) %>% 
+                         mutate(criterion = "progress"))
+```
+
+
+Remove incomplete data from questionnaire:
+
+```{r}
+ questionnaire = questionnaire %>%
+   filter(!(workerId %in% (
+     available_trials %>% filter(accept == FALSE) %>% pull(workerId)
+   )))
+```
+
+
+# Latency-based identification 
+
+
+## Spammers
+
+We will reject workers with *mean*(RT) < 3000 ms (as simple spammers) and those  with *median*(RT) < 3000 ms (as clever spammers):
+
+
+```{r}
+simple_spammer = questionnaire %>%
+                         group_by(workerId) %>%
+                         summarise(score = mean(rt)) %>%
+                         mutate(criterion = "meanRT", 
+                                accept = ifelse(score < 3000, FALSE, TRUE))
+```
+
+Are there any simple spammers?
+```{r}
+simple_spammer %>% filter(accept == FALSE) %>% kable() 
+```
+
+```{r}
+clever_spammer = questionnaire %>%
+                         group_by(workerId) %>%
+                         summarise(score = median(rt)) %>%
+                         mutate(criterion = "medianRT", 
+                                accept = ifelse(score < 3000, FALSE, TRUE))
+```
+
+Are there any clever spammers?
+```{r}
+clever_spammer %>% filter(accept == FALSE) %>% kable() 
+```
+
+```{r echo = FALSE}
+worker_profile = rbind(worker_profile, simple_spammer)
+worker_profile = rbind(worker_profile, clever_spammer)
+```
+
+
+## RT distributions
+
+Participants and different (groups of) items presumably exhibit different RT distributions:
+
+```{r rt_density_fc}
+rt_density_worker = questionnaire %>%
+  ggplot(aes(x=log(rt), group = workerId)) + 
+  geom_density(alpha=.3, fill = "#DFF1FF")
+
+rt_density_item_funs = questionnaire %>% 
+  ggplot(aes(x = log(rt), fill=ITEM_FUNCTION)) +
+  geom_density(alpha=.3) + 
+  scale_fill_brewer(palette = "Greys")
+```
+  
+```{r rt_density_fc_plot, echo = FALSE, fig.width = 10, fig.height=5, fig.cap="Figure 1 in @Pieper_et_al_2022",fig.topcaption=TRUE}
+ggpubr::annotate_figure(
+  ggpubr::ggarrange(
+    rt_density_item_funs + 
+      theme(legend.position = "None") + 
+      ggtitle("per item function") +
+      theme_bw(base_size = 16), 
+    rt_density_worker  + 
+      theme(legend.position = "bottom", legend.title = element_blank()) + 
+      ggtitle("per participant") +
+      theme_bw(base_size = 16),
+    nrow = 1, common.legend = TRUE, legend = "bottom")) +
+  theme_minimal(base_size = 20)
+```
+
+The more diverse the distribution the stronger is the superiority of ReMFOD (see next chapter) above generic cutoff points for outlier detection. 
+
+## Underperforming 
+
+**Recursive multi-factorial outlier detection (ReMFOD , @Pieper_et_al_2022)**
+```{r}
+source("./R Sources/ReMFOD.R")
+```
+
+ReMFOD (see [source code](./R Sources/ReMFOD.R)) aims at identifying individual trials as genuine intermissions  and rushes. In doing so, ReMFOD accounts for different RT distributions of different participants and item functions, as well as swamping and masking effects. Underpinned by these suspicious individual trials, underperforming participants can be determined by means of proportion of trials not responded to wholeheartedly. We propose to discard participants who have responded genuinely to less than 90~\% of trials because they supposedly did not meet the task with the necessary seriousness.
+
+To account for different RT distributions, ReMFOD compares the RT of each trial to a lower and an upper cutoff point, which each consider two  cutoff criteria, respectively: The first criterion  is computed with respect to the group of trials with the same *item function* (i.e. attention trials only, control trials only, etc.) regardless of the participant responding, the second one is computed with respect to  all trials of the corresponding participant (regardless of the item function). Only if an RT surmounts or  falls below *both*  criteria, it will be designated as a *genuine intermission*
+or as a *genuine rush*.[^1]
+
+[^1]: @Miller_1991 proposes the values of 3 (very conservative), 2.5 (moderately conservative) or even 2 (poorly
+conservative).  @Haeussler_Juzek_2016 suggest using an asymmetric criterion (using standard deviations) of -1.5 for the lower and +4 for the upper cutoff point.
+
+\begin{align}    \label{eq:cutoff_outlier_rt}
+    \textit{cutoff_}&\textit{intermission} = \max \left\{  \right.\\
+&\left. \text{median}(\textit{RTs:participant}) + 2.5 \times \text{mad}(\textit{RTs:participant}), \right.\nonumber\\
+ &\left. \text{median}(\textit{RTs:item_function}) + 2.5 \times \text{mad}(\textit{RTs:item_function})\right.\nonumber\}
+\end{align}
+
+\begin{align}  \label{eq:cutoff_guesses_rt}
+    \textit{cutoff_}&\textit{rush} = \min \left\{  \right.\\
+&\left. \text{median}(\textit{RTs:participant}) - 1.5 \times \text{mad}(\textit{RTs:participant}), \right.\nonumber\\
+ &\left. \text{median}(\textit{RTs:item_function}) - 1.5 \times \text{mad}(\textit{RTs:item_function})\right.\nonumber\}
+\end{align}
+
+To account for swamping and masking effects (see @Ben-Gal_2005), 
+the process described above will be repeated on a reduced data set (i.e. excluding already detected outliers) until no more outliers  can be found. Therefore, in each iteration step, the cutoff points must be computed afresh. 
+
+
+
+### Overview plot for item functions
+
+Different outlier types, computed with respect to different groups, are marked by different shapes: Box-shaped trials are the only RTs we consider as genuine intermissions or rushes. Note that the shapes may overlap as these outliers have been computed by various procedures differing in the groups they included to identify outliers.
+
+```{r ls_remfod_plot_item_function,  fig.width = 10, fig.height=5, fig.cap="Upper plot of Figure 2 in @Pieper_et_al_2022",fig.topcaption=TRUE}
+## compute different outlier types based on the whole questionnaire and plot these
+remfod_plot = questionnaire  %>% outlier_plots_remfod()
+item_plot = remfod_plot # we are going to reuse remfod_plot for workers
+## remove data we are currently not interested in from the plot 
+item_plot$data = item_plot$data %>% 
+  filter(!ITEM_FUNCTION %in% c("calibration", "filler"))
+## structure plot as you like
+item_plot + facet_wrap(~ ITEM_FUNCTION, nrow = 1)
+```
+
+
+### Performance of participants
+
+We expect that 90 % of the trials are answered without genuine intermission or rushes, i.e. that 90 % of the RTs are *valid*
+
+```{r genuine_outliers_summ, message = FALSE, warning = FALSE}
+rt_outlier_count = remfod(questionnaire)  %>% 
+  group_by(workerId,  direction) %>% tally() %>%
+  spread(key = "direction", value = "n") %>% 
+  rename( none = "<NA>") %>%  
+  mutate_if(is.numeric, replace_na, 0) %>%
+  mutate(trials_total = sum(long, short, none),
+         prop_long = long/trials_total, 
+         prop_short = short/trials_total,
+         prop_out = (short+long)/trials_total,
+         prop_valid = none/trials_total,
+         accept = ifelse(prop_valid < 0.9, FALSE, TRUE)) %>%
+  arrange(prop_valid) %>%
+  mutate_if(is.numeric, round, 4)
+```
+
+```{r genuine_outliers_summ_table,  echo = FALSE, message = FALSE, warning = FALSE, echo = FALSE}
+rt_outlier_count %>%  datatable(rownames = FALSE, extensions = 'Buttons')
+```
+
+
+```{r worker_profile_remfod, echo = FALSE}
+worker_profile = rbind(worker_profile, 
+  rt_outlier_count %>% 
+    select(workerId, prop_valid, accept) %>% 
+    rename(score = prop_valid) %>%
+    mutate(criterion = "validRTs")) 
+```
+
+#### Plots of individual participants
+
+Some underperforming participants
+
+```{r FC_underperforming, echo = FALSE}
+worker_plot = remfod_plot ## computed different outlier types based on the whole questionnaire and plot these
+## remove data we are currently not interested in from the plot 
+worker_plot$data = worker_plot$data %>% 
+  filter(workerId %in% (rt_outlier_count %>% filter(accept == FALSE) %>% pull(workerId)))
+## structure plot as you like
+no_pages = min(9,floor((rt_outlier_count %>% filter(accept == FALSE) %>% nrow()) / 3)) # prevent bug facet_wrap_paginate ~ show only full pages
+for(i in c(1:no_pages)){
+  plot(worker_plot + ggforce::facet_wrap_paginate(~ workerId, nrow = 1, ncol = 3, page = i))
+}
+```
+
+```{r FC_exemplative, eval = all(c(233,252,269) %in% unique(remfod_plot$data$workerId)), echo = FALSE, results='asis',fig.cap="Lower plot of Figure 2 in @Pieper_et_al_2022",fig.topcaption=TRUE}
+cat("***\nFurther exemplative workers\n\n")
+
+worker_plot = remfod_plot ## computed different outlier types based on the whole questionnaire and plot these
+## remove data we are currently not interested in from the plot 
+worker_plot$data = worker_plot$data %>% 
+  filter(workerId %in% c(233,252,269))
+## structure plot as you like
+worker_plot + facet_wrap(~ workerId, nrow = 1, ncol = 3)
+```
+
+
+# Item-based identification 
+
+```{r attention_trials}
+control_trials = questionnaire %>% 
+  filter(ITEM_FUNCTION == "control")  %>%
+  droplevels()
+
+attention_trials = questionnaire %>% 
+  filter(ITEM_FUNCTION == "attention")  %>%
+  droplevels()
+```
+
+Each control group should provide chances of less than 5% to pass controls by guessing. 
+
+## Guessing probabilities  
+```{r}
+source("./R Sources/GuessingProbs.R")
+```
+
+To compute the probability (by standard binomial expansions) of (*exactly!*) k correct answers out of N trials, where 
+
+- ***k*** amount of trials answered correctly
+- ***N*** mount of total trials
+- ***p*** the probability of a correct response
+- ***q*** the probability of an incorrect response
+- ***p == q***, i.e. there are only two choices
+
+we can use the simplified formula  (see @Frederick_Speed_2007), implemented by the  function `k_out_of_N`:
+
+\begin{align}
+ \frac{N!}{k!(N - k)!}p^{N}
+ \label{eq:probs_binomial_2choices}
+\end{align}
+
+To compute the probability (by standard binomial expansions) of k *or fewer* correct answers out of N trials, we can use the function `k_out_of_N_cumulative`, which returns the sum of all the probabilities from 0 to k  (see [source code](./R Sources/GuessingProbs.R)).
+
+
+## Criterion selection
+
+Each control group should provide chances of less than 5% to pass controls by guessing. 
+
+Let's look at the chances to answer **at least** k out of N items correct for different ks and Ns:
+
+```{r eval = FALSE}
+k_out_of_N_matrix_cumulative(Ns = seq(4,16,2), ks = c(2:12))
+```
+
+```{r echo = FALSE}
+k_out_of_N_matrix_cumulative(Ns = seq(4,16,2), ks = c(2:12)) %>% 
+  rename("N\\k" = N) %>% kable(caption = "Table 2 in @Pieper_et_al_2022") %>%
+  column_spec(1,bold=T) 
+```
+
+
+To determine the amount of trials that participants are required to respond to correctly, we only need the number of attention trials employed in this study. Our rule of thumb is that chances to pass this test by chance (i.e. guessing) must not succeed 5%. We use the function `find_k_min(N)`  which return the minimal requirement of all valid options, or the best possible requirement. 
+
+
+
+## Evaluation groups
+
+There are different ways to proceed: we could evaluate attention and control items as one group, evaluate them separately, and even evaluate related and unrelated control items separately. 
+The best choice may depend on the exact nature of your trials.
+We are going to compute evaluations based on all groups mentioned.
+
+To facilitate computation, we combine the different groups (named by `ITEM_FUNCTION`) into a single frame -- whereby adapting `ITEM_FUNCTION` in some cases: 
+
+```{r}
+eval_trials = rbind(control_trials, attention_trials) %>% 
+  # attenion or control items evaluated as one group
+  mutate(ITEM_FUNCTION = "attention|control") %>% 
+  bind_rows(attention_trials) %>%
+  bind_rows(control_trials) %>% 
+  # separate evaluation of related and unrelated control trials
+  bind_rows(control_trials %>% 
+              mutate(ITEM_FUNCTION = paste(ITEM_FUNCTION, ITEM_SUBGROUP, sep="_"))
+            ) 
+```
+
+Find number of trials in each group (per questionnaire):
+```{r message = FALSE}
+Ns =   eval_trials %>% 
+  select(ITEM_FUNCTION, itemId) %>%
+  distinct() %>% 
+  group_by(ITEM_FUNCTION) %>% summarize(N = n())
+```
+
+Find required k to each group:
+
+```{r}
+eval_criteria = Ns %>% rowwise() %>%
+  mutate(k = find_k_min(N), prop_k = k/N)
+```
+
+```{r echo = FALSE, fig.align='center'}
+eval_criteria %>% kable()
+```
+
+count correct responses and compare to number of required correct responses
+
+```{r eval_item_based, warning = FALSE, message= FALSE}
+item_based_eval = eval_trials %>% 
+  mutate(ANSWER_correct = ifelse(grepl("\\*", ANSWER), "incorrect", "correct")) %>%
+  group_by(workerId, ITEM_FUNCTION, ANSWER_correct) %>% 
+  tally() %>% ungroup(workerId) %>%
+  spread(key = ANSWER_correct, value = n) %>% 
+  mutate_if(is.numeric, replace_na,0) %>% 
+  ## we use proportions in order to deal with potentially missing data
+  mutate(prop_correct = correct / (correct+incorrect)) %>%
+  merge(eval_criteria) %>% 
+  mutate(accept = ifelse(prop_correct < prop_k, FALSE, TRUE)) %>%
+  arrange(prop_correct)
+```
+
+
+```{r echo = FALSE}
+item_based_eval  %>% 
+  mutate_if(is.numeric, round, digits = 3) %>%
+  datatable(rownames = FALSE, extensions = 'Buttons')
+```
+
+
+```{r worker_profile_item_based, echo = FALSE}
+worker_profile = rbind(worker_profile, 
+  item_based_eval %>% 
+    select(workerId, prop_correct, accept, ITEM_FUNCTION) %>% 
+    rename(score = prop_correct, criterion = ITEM_FUNCTION)
+)
+```
+
+
+#  Rejected participants 
+
+Let's have a look at the criteria we used to evaluate participants: 
+```{r}
+unique(worker_profile$criterion)
+```
+If we applied all of those criteria, and reject all participants who failed on any of them, how many participants would we be left with, i.e. accept?
+
+```{r}
+worker_acceptance = worker_profile %>%
+  select(-score) %>%
+  group_by(workerId) %>%
+  summarise(accept = !any(!accept))
+
+table(worker_acceptance$accept)
+```
+
+## Rejection reasons 
+
+For convenience, we have (covertly) stored all information gathered in a table named `worker_profile`. 
+Let's have a look at how many participants are rejected the individual criteria: 
+
+```{r}
+## individual
+rejection_reasons = worker_profile %>% 
+  group_by(criterion, accept) %>% 
+  tally() %>%
+  spread(key = accept, value = n) %>%
+  rename(acccept = 'TRUE', reject = 'FALSE')
+```
+ 
+```{r echo=FALSE, fig.align = 'center'}
+kable(rejection_reasons)
+```
+
+
+```{r}
+## Combined Rejection Reasons 
+rejection_reasons_combined = worker_profile %>%
+  filter(accept == FALSE) %>%
+  group_by(workerId) %>%
+  arrange(criterion) %>% 
+  summarise(criteria = paste(criterion, collapse = " + ")) %>%
+  group_by(criteria) %>% tally() %>%
+  arrange(criteria)
+```
+
+```{r echo=FALSE, fig.align = 'center'}
+kable(rejection_reasons_combined)
+```
+
+
+
+
+## Final decision
+If we do not want to apply certain criteria, we can delete them now from the worker profile: 
+
+As we find that enough participants passed attention trials (although it was required that all trials are responded to correctly), we do remove the group `attention|control` as it is hence not needed (and for illustration purposes):
+
+```{r}
+worker_profile = worker_profile %>%
+  ## restrict to attention and control as groups
+  filter(!grepl("\\|",criterion) & !(grepl("related",criterion)))
+```
+
+
+## Participants overview table
+
+we might also check on individual participants: 
+
+
+```{r}
+worker_profile %>%
+  mutate(score = ifelse(score > 1, 
+                        score/1000, # seconds 
+                        score*100) # percent
+         ) %>%
+  mutate(score = format(round(score, 2), nsmall = 2)) %>%
+  select(-accept) %>%
+  spread(key = criterion, value = score) %>%
+  merge(worker_acceptance) %>%  relocate(accept) %>%
+  mutate(accept = ifelse(accept,"yes","no")) %>%
+  datatable(rownames = FALSE, extensions = 'Buttons',  options = list(
+            columnDefs = list(list(className = 'dt-right', 
+                                   targets = 1:(1+length(unique(worker_profile$criterion)))))
+            ))
+```
+
+
+## Remove ineligible participants
+
+Rejected Workers:
+```{r}
+reject = worker_profile %>%
+  filter(accept == FALSE) %>%
+  pull(workerId) %>% unique() %>% sort()
+
+length(reject)
+reject
+```
+
+Remove their data from fillers:
+```{r}
+filler_items = filler_items %>%
+  filter(! workerId %in% reject)
+write.csv(filler_items, "./judgments/eligible/ForcedChoice_filler.csv", fileEncoding = "UTF-8", row.names = FALSE)
+```
+
+
+Remove their data from test items:
+```{r}
+test_items = test_items %>%
+  filter(! workerId %in% reject)
+write.csv(test_items, "./judgments/eligible/ForcedChoice_test.csv", fileEncoding = "UTF-8", row.names = FALSE)
+```
+
+# References

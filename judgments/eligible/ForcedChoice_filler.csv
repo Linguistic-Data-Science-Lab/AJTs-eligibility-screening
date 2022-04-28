@@ -1,0 +1,1201 @@
+"workerId","itemId","ENCODING","OPTION_0_CONDITION_NO","OPTION_1_CONDITION_NO","ITEM_FUNCTION","ITEM_SUBGROUP","ANSWER","ANSWER_CONDITION_NO","ANSWER_POSITION","PRESENTATION_ORDER","PRESENTATION_ORDER_CONDITION","rt","time_elapsed","trial_index"
+271,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10639,10645,0
+271,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7279,17933,1
+271,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7605,25544,2
+271,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7827,33376,3
+271,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8445,41828,4
+271,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5575,47410,5
+271,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6976,54392,6
+271,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",11605,72818,8
+271,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6688,79508,9
+271,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6929,97164,11
+271,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8426,114400,13
+271,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5177,128419,15
+271,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13698,150159,17
+271,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6543,156706,18
+271,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6263,170940,20
+271,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6425,177372,21
+271,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9641,192540,23
+271,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9967,202511,24
+271,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11776,214290,25
+271,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4996,225578,27
+271,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5150,230730,28
+271,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4448,241134,30
+271,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6902,248040,31
+271,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7564,264009,33
+271,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9998,282048,35
+271,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6107,288160,36
+271,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6904,300760,38
+271,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5383,312468,40
+271,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",31341,350549,42
+271,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6348,364691,44
+271,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10551,375244,45
+271,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4871,380118,46
+271,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5249,391838,48
+271,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5067,396909,49
+271,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4980,410028,51
+271,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5394,415425,52
+271,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5202,428540,54
+271,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7863,436407,55
+271,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7797,450534,57
+271,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",4786,460101,59
+271,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9134,476208,61
+271,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4450,480661,62
+271,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5523,494474,64
+271,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",4925,499403,65
+271,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9407,515502,67
+271,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4442,519950,68
+271,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5596,525551,69
+271,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7587,538860,71
+270,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10046,10048,0
+270,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11454,21508,1
+270,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9840,31352,2
+270,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9385,40739,3
+270,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9540,50281,4
+270,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7134,57417,5
+270,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9913,86571,7
+270,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6857,106703,9
+270,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",16448,136474,11
+270,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",11792,148268,12
+270,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8467,168540,14
+270,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7992,176534,15
+270,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10822,198543,17
+270,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",9125,207671,18
+270,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10159,230565,20
+270,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",28003,272934,22
+270,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",13872,295562,24
+270,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",20280,315844,25
+270,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10089,336860,27
+270,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9708,346570,28
+270,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10579,369272,30
+270,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8101,377375,31
+270,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8516,394569,33
+270,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10510,405081,34
+270,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",15444,427407,36
+270,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",11356,450914,38
+270,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12040,473570,40
+270,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6280,479852,41
+270,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10836,490690,42
+270,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",9480,500172,43
+270,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",33415,533588,44
+270,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10328,556938,46
+270,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",20556,577495,47
+270,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5764,583261,48
+270,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8208,600889,50
+270,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6853,619796,52
+270,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10896,640062,54
+270,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",16950,657014,55
+270,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13265,679078,57
+270,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10749,699696,59
+270,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9871,709568,60
+270,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9333,732584,62
+270,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8300,740886,63
+270,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8092,759309,65
+270,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",15647,774959,66
+270,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7100,795140,68
+270,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10324,815438,70
+270,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10145,825586,71
+267,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",17186,17191,0
+267,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13677,30871,1
+267,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14081,44953,2
+267,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10660,55616,3
+267,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12749,68369,4
+267,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9079,77450,5
+267,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13369,108409,7
+267,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",11941,147673,9
+267,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14882,162556,10
+267,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6694,191447,12
+267,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11378,202826,13
+267,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6774,209602,14
+267,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",16814,226416,15
+267,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",9548,248225,17
+267,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12303,272520,19
+267,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13282,285803,20
+267,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10570,306448,22
+267,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8331,323017,24
+267,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9789,346908,26
+267,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8121,363430,28
+267,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10348,386212,30
+267,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10091,406260,32
+267,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",16318,431797,34
+267,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14525,446323,35
+267,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14076,471772,37
+267,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",11598,498905,39
+267,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",17080,532918,41
+267,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",17473,550392,42
+267,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",25708,576101,43
+267,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6811,592529,45
+267,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",63047,655577,46
+267,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4709,667235,48
+267,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14981,682217,49
+267,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5253,687473,50
+267,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8424,695898,51
+267,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9425,705325,52
+267,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8290,720187,54
+267,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5328,725517,55
+267,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7190,741227,57
+267,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7203,748431,58
+267,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6660,755094,59
+267,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7707,775376,61
+267,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11369,792706,63
+267,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5866,806681,65
+267,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8600,833245,67
+267,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8949,842195,68
+267,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9735,868217,70
+267,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",18272,886491,71
+263,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12508,12515,0
+263,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",4630,17156,1
+263,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5992,23159,2
+263,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7567,30739,3
+263,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5534,36281,4
+263,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5460,41750,5
+263,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",3468,45224,6
+263,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5352,50584,7
+263,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9207,59801,8
+263,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5770,65579,9
+263,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7888,278304,11
+263,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6591,284902,12
+263,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6167,291077,13
+263,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4058,295141,14
+263,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11150,314234,16
+263,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3355,325351,18
+263,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4758,336799,20
+263,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3302,348076,22
+263,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4974,357794,24
+263,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",2895,360699,25
+263,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5285,377493,27
+263,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4807,382316,28
+263,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4501,394132,30
+263,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",2980,397118,31
+263,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",3859,400985,32
+263,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",2771,408466,34
+263,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",4671,418720,36
+263,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4322,429100,38
+263,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5411,441907,40
+263,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",2671,456438,42
+263,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5993,462438,43
+263,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",2659,470461,45
+263,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5124,480975,47
+263,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",3464,484446,48
+263,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6903,496203,50
+263,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6491,502701,51
+263,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9866,518855,53
+263,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6993,525855,54
+263,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",4853,530718,55
+263,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",2509,540361,57
+263,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9204,549575,58
+263,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6237,555819,59
+263,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8031,571355,61
+263,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",3927,580758,63
+263,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7071,592519,65
+263,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",4481,600781,67
+263,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5410,611922,69
+263,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9611,627360,71
+258,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9472,9475,0
+258,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8929,18408,1
+258,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9836,28246,2
+258,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7358,35605,3
+258,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8130,43737,4
+258,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5816,49555,5
+258,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",15811,65367,6
+258,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8470,73838,7
+258,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7976,90065,9
+258,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6898,104686,11
+258,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4702,116679,13
+258,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5368,122048,14
+258,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7361,136754,16
+258,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7820,154236,18
+258,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12737,176671,20
+258,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8638,185310,21
+258,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",16817,213497,23
+258,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10139,223637,24
+258,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",13380,237019,25
+258,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",14197,251217,26
+258,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9034,260252,27
+258,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",15660,283475,29
+258,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12981,304288,31
+258,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6523,325913,33
+258,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7270,333183,34
+258,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",9412,359436,36
+258,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",16265,385076,38
+258,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",11070,403765,40
+258,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",15264,419030,41
+258,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6970,433294,43
+258,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12257,445552,44
+258,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7259,459056,46
+258,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5630,474870,48
+258,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5068,479939,49
+258,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6131,498946,51
+258,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8127,516628,53
+258,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12831,537467,55
+258,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5471,542939,56
+258,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9260,566299,58
+258,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8106,583852,60
+258,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7036,590890,61
+258,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7687,598579,62
+258,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9825,622315,64
+258,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7739,630055,65
+258,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12250,648986,67
+258,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5374,654361,68
+258,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11780,675214,70
+258,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7214,682430,71
+257,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9441,9442,0
+257,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14351,23798,1
+257,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7614,31418,2
+257,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6780,38204,3
+257,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7207,45413,4
+257,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10047,55462,5
+257,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10832,82218,7
+257,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14569,110987,9
+257,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7745,118735,10
+257,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",11814,139713,12
+257,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",16361,167281,14
+257,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8557,175840,15
+257,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",11050,186892,16
+257,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6849,193743,17
+257,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",14504,208248,18
+257,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7782,228085,20
+257,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11464,254561,22
+257,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4649,271167,24
+257,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",17793,288963,25
+257,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6735,305860,27
+257,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9645,323072,29
+257,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7694,330771,30
+257,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10212,340988,31
+257,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7110,361745,33
+257,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9771,371517,34
+257,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7442,387358,36
+257,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8181,404128,38
+257,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7347,411476,39
+257,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7462,418942,40
+257,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7520,426466,41
+257,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6705,440898,43
+257,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6304,456157,45
+257,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5446,461606,46
+257,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7275,478723,48
+257,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9441,495318,50
+257,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5631,510797,52
+257,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10358,529522,54
+257,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7575,546641,56
+257,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7642,565726,58
+257,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9563,575291,59
+257,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10937,600655,61
+257,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5438,606096,62
+257,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13901,619999,63
+257,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6881,637239,65
+257,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8818,646059,66
+257,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9833,663989,68
+257,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",15297,679289,69
+257,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",15053,704198,71
+255,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12381,12384,0
+255,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",41230,53627,1
+255,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10443,64072,2
+255,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8630,72705,3
+255,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",25332,98040,4
+255,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8533,106574,5
+255,"f25_1_3","f25",1,3,"filler","pseudo_windef","?",3,"below","grammatical >> ?","condition 1 >> condition 3",10129,132806,7
+255,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",11719,163495,9
+255,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10445,173944,10
+255,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9307,183253,11
+255,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",15738,198992,12
+255,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9679,222133,14
+255,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",11820,244950,16
+255,"f12_1_2","f12",1,2,"control","unrelated","*OBJ SUBJ",2,"above","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",17987,279780,18
+255,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8442,288224,19
+255,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",12877,301103,20
+255,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12375,321957,22
+255,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",19645,356277,24
+255,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",21850,378130,25
+255,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",10685,399553,27
+255,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",18110,417664,28
+255,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",16715,446869,30
+255,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13288,473355,32
+255,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7000,480357,33
+255,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12200,506112,35
+255,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",16047,534294,37
+255,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10686,555602,39
+255,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",11690,567293,40
+255,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11642,585125,42
+255,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5543,596726,44
+255,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10178,619498,46
+255,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",15635,635134,47
+255,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12673,647808,48
+255,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",12264,683267,50
+255,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",15872,713501,52
+255,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8926,722429,53
+255,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",15312,737742,54
+255,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10400,757847,56
+255,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6631,772009,58
+255,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",14656,786666,59
+255,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11793,806456,61
+255,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",10097,816555,62
+255,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11646,828202,63
+255,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",11844,853768,65
+255,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11209,872566,67
+255,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10783,883350,68
+255,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9378,892729,69
+255,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12113,913585,71
+254,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",17548,17549,0
+254,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11777,29329,1
+254,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",20362,49691,2
+254,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8454,58147,3
+254,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9173,67320,4
+254,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9075,76396,5
+254,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",16650,93047,6
+254,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",15301,108348,7
+254,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",23467,151046,9
+254,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",11164,177454,11
+254,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",32593,210049,12
+254,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6845,231464,14
+254,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11230,242695,15
+254,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5944,255807,17
+254,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10979,295879,19
+254,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9733,305612,20
+254,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12549,333242,22
+254,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6608,339851,23
+254,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",34871,404188,25
+254,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6113,421202,27
+254,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",16133,456544,29
+254,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6027,469644,31
+254,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6781,476426,32
+254,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9751,486178,33
+254,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12018,512978,35
+254,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6435,519414,36
+254,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12406,540818,38
+254,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5313,563204,40
+254,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7253,581066,42
+254,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10219,638882,44
+254,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5579,644462,45
+254,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6641,651104,46
+254,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12987,674084,48
+254,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12438,686522,49
+254,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","?",3,"below","grammatical >> ?","condition 1 >> condition 3",13887,712350,51
+254,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",14630,733236,53
+254,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7617,749780,55
+254,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6841,771826,57
+254,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11431,783258,58
+254,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",20228,803486,59
+254,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10823,842114,61
+254,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",20193,862308,62
+254,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7912,870222,63
+254,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9515,888542,65
+254,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7195,909328,67
+254,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10113,919442,68
+254,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7685,935566,70
+254,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6864,942430,71
+247,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5342,5345,0
+247,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9959,15308,1
+247,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7487,22798,2
+247,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6279,29078,3
+247,"f45_1_3","f45",1,3,"calibration","unrelated","?",3,"below","grammatical >> ?","condition 1 >> condition 3",4803,33883,4
+247,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6882,40766,5
+247,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12471,67858,7
+247,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6182,87581,9
+247,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6039,106135,11
+247,"f05_1_2","f05",1,2,"control","related","*OBJfix SUBJ",2,"below","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8350,114487,12
+247,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8023,131853,14
+247,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6241,138095,15
+247,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",15322,163217,17
+247,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8662,179487,19
+247,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",20313,199802,20
+247,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7793,215923,22
+247,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5567,221492,23
+247,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8541,237398,25
+247,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9065,246465,26
+247,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5097,251563,27
+247,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7685,267350,29
+247,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5983,273336,30
+247,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6586,279923,31
+247,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4930,284858,32
+247,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",16377,306285,34
+247,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3322,309609,35
+247,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12695,322306,36
+247,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7407,342034,38
+247,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7154,349189,39
+247,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6848,364022,41
+247,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7052,378642,43
+247,"f04_1_2","f04",1,2,"control","related","*OBJfix SUBJ",2,"above","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10681,397155,45
+247,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7606,412793,47
+247,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3637,416432,48
+247,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5244,431717,50
+247,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4876,445922,52
+247,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7173,453096,53
+247,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7696,466233,55
+247,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7451,482195,57
+247,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",9044,501013,59
+247,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12871,523438,61
+247,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5627,529066,62
+247,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8405,537473,63
+247,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5796,552135,65
+247,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6646,558782,66
+247,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5178,569956,68
+247,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5997,575956,69
+247,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7274,590640,71
+246,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10011,10017,0
+246,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",20755,30777,1
+246,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8484,39264,2
+246,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6966,46233,3
+246,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4998,51234,4
+246,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6848,58084,5
+246,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6780,64866,6
+246,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6828,71697,7
+246,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10733,92884,9
+246,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5536,98423,10
+246,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14734,123082,12
+246,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8167,131252,13
+246,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6123,154796,15
+246,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10431,174132,17
+246,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8510,182645,18
+246,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7490,197140,20
+246,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6720,203863,21
+246,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7187,217469,23
+246,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14022,237618,25
+246,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6190,252213,27
+246,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9143,261358,28
+246,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",20007,299811,30
+246,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9850,309664,31
+246,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7684,331533,33
+246,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6959,338495,34
+246,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",14068,358541,36
+246,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9074,379510,38
+246,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7038,386549,39
+246,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7398,402189,41
+246,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6566,415599,43
+246,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","?",3,"below","grammatical >> ?","condition 1 >> condition 3",10996,426597,44
+246,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4953,438932,46
+246,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8466,447401,47
+246,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6888,461226,49
+246,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6251,473872,51
+246,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5778,479653,52
+246,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7830,494154,54
+246,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6718,500875,55
+246,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10435,517486,57
+246,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7610,535802,59
+246,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7847,553610,61
+246,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",10244,571668,63
+246,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6084,587366,65
+246,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7381,594750,66
+246,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9077,603831,67
+246,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7573,621469,69
+246,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9382,630853,70
+246,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8117,638972,71
+244,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9036,9041,0
+244,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7737,16783,1
+244,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6545,23333,2
+244,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8781,32117,3
+244,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7894,40013,4
+244,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4797,44812,5
+244,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",13485,72856,7
+244,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5596,78456,8
+244,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6455,108498,10
+244,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6292,128467,12
+244,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","?",3,"above","? >> grammatical","condition 3 >> condition 1",13661,142132,13
+244,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6181,155603,15
+244,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8104,170258,17
+244,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5208,185614,19
+244,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",20954,206571,20
+244,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7641,214215,21
+244,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7394,229572,23
+244,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",17939,252876,25
+244,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",13834,274656,27
+244,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",17174,300692,29
+244,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5780,313715,31
+244,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4859,318577,32
+244,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",15295,333875,33
+244,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9788,351332,35
+244,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8641,359975,36
+244,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8232,368210,37
+244,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7831,376046,38
+244,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3408,379456,39
+244,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8083,387543,40
+244,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5245,392790,41
+244,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5133,407664,43
+244,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6592,423593,45
+244,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8059,431655,46
+244,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4980,445446,48
+244,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4600,450048,49
+244,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8168,467857,51
+244,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10594,485085,53
+244,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7096,492183,54
+244,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4512,502161,56
+244,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6450,521528,58
+244,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8258,534198,60
+244,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6594,540794,61
+244,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9203,557393,63
+244,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8003,565397,64
+244,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8884,584538,66
+244,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7091,601523,68
+244,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",49470,650994,69
+244,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5619,663538,71
+243,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8297,8301,0
+243,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8385,16689,1
+243,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7957,24649,2
+243,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7216,31868,3
+243,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8989,40858,4
+243,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10455,51314,5
+243,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",13198,64515,6
+243,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",9436,85779,8
+243,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9565,104737,10
+243,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7502,112242,11
+243,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9058,144262,13
+243,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7117,151380,14
+243,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6492,157873,15
+243,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7990,179953,17
+243,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6750,196093,19
+243,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5971,228503,21
+243,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12139,251133,23
+243,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5888,257021,24
+243,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10830,281365,26
+243,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",9908,291276,27
+243,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12205,318175,29
+243,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6287,340177,31
+243,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7454,347631,32
+243,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5540,361922,34
+243,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9122,371046,35
+243,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6925,393501,37
+243,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8153,409455,39
+243,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8805,427639,41
+243,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",25087,452728,42
+243,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6106,458837,43
+243,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",15645,474483,44
+243,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5554,480039,45
+243,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9767,499457,47
+243,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6849,513863,49
+243,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8490,522354,50
+243,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6699,536243,52
+243,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12101,562115,54
+243,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10197,572313,55
+243,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7552,596107,57
+243,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6091,611989,59
+243,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",29792,641782,60
+243,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7821,667931,62
+243,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5914,673846,63
+243,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8321,694371,65
+243,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5666,700037,66
+243,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8212,718556,68
+243,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",33182,760090,70
+243,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7185,767276,71
+241,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11233,11235,0
+241,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11672,22909,1
+241,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10583,33493,2
+241,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6649,40143,3
+241,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7882,48027,4
+241,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5704,53732,5
+241,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8812,62545,6
+241,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4866,86352,8
+241,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",4561,90913,9
+241,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10616,127731,11
+241,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4214,138547,13
+241,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5858,144406,14
+241,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5376,163844,16
+241,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6003,179172,18
+241,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8086,187260,19
+241,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8610,202703,21
+241,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8921,211625,22
+241,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4180,229450,24
+241,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","?",3,"below","grammatical >> ?","condition 1 >> condition 3",12588,242040,25
+241,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",3145,252355,27
+241,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12644,271801,29
+241,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3994,275797,30
+241,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7104,290438,32
+241,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6254,296694,33
+241,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13965,316645,35
+241,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8820,325467,36
+241,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8542,338953,38
+241,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3792,342746,39
+241,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",4495,358969,41
+241,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4049,363020,42
+241,"f25_1_3","f25",1,3,"filler","pseudo_windef","?",3,"above","? >> grammatical","condition 3 >> condition 1",8114,371135,43
+241,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",4115,386347,45
+241,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5317,396346,47
+241,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5195,401542,48
+241,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7240,417139,50
+241,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10695,427835,51
+241,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5491,439425,53
+241,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4010,452500,55
+241,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5050,463515,57
+241,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5058,473350,59
+241,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7090,480441,60
+241,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6412,491962,62
+241,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6428,498391,63
+241,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5568,510227,65
+241,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5556,525979,67
+241,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6155,532135,68
+241,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9689,551733,70
+241,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",20359,572094,71
+240,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12797,12799,0
+240,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11325,24128,1
+240,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7278,31408,2
+240,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9455,40864,3
+240,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7195,48060,4
+240,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5562,53624,5
+240,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11990,65616,6
+240,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5726,84959,8
+240,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",11622,96584,9
+240,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8662,130151,11
+240,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",13821,143975,12
+240,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7392,160223,14
+240,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5302,177935,16
+240,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7967,193336,18
+240,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7087,214560,20
+240,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3654,228304,22
+240,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10853,239159,23
+240,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7567,246727,24
+240,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",18174,271583,26
+240,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3486,283046,28
+240,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6247,289295,29
+240,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4599,293895,30
+240,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7341,309535,32
+240,"f18_1_2","f18",1,2,"control","unrelated","*",2,"below","grammatical >> *","condition 1 >> condition 2",5286,314822,33
+240,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11671,326494,34
+240,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7224,333719,35
+240,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12206,353847,37
+240,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8255,362104,38
+240,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8166,381943,40
+240,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4422,398575,42
+240,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6223,418399,44
+240,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6710,425111,45
+240,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7886,432998,46
+240,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6312,446735,48
+240,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6813,453550,49
+240,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10031,472806,51
+240,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8990,487678,53
+240,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6232,493911,54
+240,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7022,508502,56
+240,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6798,530566,58
+240,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10560,550703,60
+240,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3814,562751,62
+240,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7535,576319,64
+240,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10918,587238,65
+240,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6294,600559,67
+240,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5758,606318,68
+240,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","?",3,"below","grammatical >> ?","condition 1 >> condition 3",7029,620334,70
+240,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7326,627663,71
+239,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9256,9258,0
+239,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4608,13873,1
+239,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5264,19139,2
+239,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6644,25784,3
+239,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11326,37113,4
+239,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5474,42589,5
+239,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9397,51988,6
+239,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8966,60956,7
+239,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14939,75897,8
+239,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7294,108625,10
+239,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9242,117869,11
+239,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7284,138414,13
+239,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10322,157858,15
+239,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4992,162853,16
+239,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12329,185920,18
+239,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7935,193859,19
+239,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8763,217763,21
+239,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5104,222868,22
+239,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5918,239137,24
+239,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7830,246968,25
+239,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8695,264648,27
+239,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7248,271900,28
+239,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4465,282701,30
+239,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8585,291287,31
+239,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6278,297569,32
+239,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3936,308293,34
+239,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5775,321442,36
+239,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4828,335660,38
+239,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",25924,361586,39
+239,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4074,365664,40
+239,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8311,373978,41
+239,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5465,385118,43
+239,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5019,390140,44
+239,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4596,401196,46
+239,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9847,416590,48
+239,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",4282,427999,50
+239,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8952,442155,52
+239,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4052,446210,53
+239,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6706,457814,55
+239,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3627,478556,57
+239,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6008,494529,59
+239,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6077,504415,61
+239,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5772,514758,63
+239,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5296,520056,64
+239,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5758,530371,66
+239,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8797,545574,68
+239,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4536,550114,69
+239,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8288,566724,71
+238,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7306,7309,0
+238,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9604,16916,1
+238,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6783,23700,2
+238,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7303,31004,3
+238,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12063,43068,4
+238,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8527,51596,5
+238,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7398,67212,7
+238,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6318,73532,8
+238,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7215,89012,10
+238,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4247,93260,11
+238,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7463,100724,12
+238,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4478,105204,13
+238,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6893,125132,15
+238,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5207,130340,16
+238,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",20151,156420,18
+238,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",3662,160084,19
+238,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6129,166213,20
+238,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5759,179556,22
+238,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7334,198180,24
+238,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5591,203771,25
+238,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4151,214380,27
+238,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3919,225259,29
+238,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6351,231611,30
+238,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4689,236301,31
+238,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",22544,265956,33
+238,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6471,272428,34
+238,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6679,295500,36
+238,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5270,300772,37
+238,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5399,315444,39
+238,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",4343,326692,41
+238,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6416,333109,42
+238,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",4688,344068,44
+238,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",11814,363339,46
+238,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3144,366484,47
+238,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8254,374740,48
+238,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3071,385236,50
+238,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8527,401644,52
+238,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3215,412684,54
+238,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7550,429532,56
+238,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3759,439923,58
+238,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4119,444043,59
+238,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5455,455163,61
+238,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",17335,478395,63
+238,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6471,493188,65
+238,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7927,501115,66
+238,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5583,513531,68
+238,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6088,527148,70
+238,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8749,535899,71
+236,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",13822,13824,0
+236,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10093,23923,1
+236,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8540,32465,2
+236,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5520,37987,3
+236,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13528,51517,4
+236,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13100,64619,5
+236,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9296,73917,6
+236,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9379,97343,8
+236,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5209,102554,9
+236,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8763,124448,11
+236,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14791,148852,13
+236,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7778,156632,14
+236,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10119,177800,16
+236,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8914,208373,18
+236,"f31_1_3","f31",1,3,"filler","unrelated","?",3,"below","grammatical >> ?","condition 1 >> condition 3",17288,225662,19
+236,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",15252,261102,21
+236,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8425,289610,23
+236,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",12327,315317,25
+236,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14456,342896,27
+236,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8131,360616,29
+236,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10870,382332,31
+236,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6568,388902,32
+236,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",17647,406550,33
+236,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6224,420773,35
+236,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6412,433604,37
+236,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",10310,454881,39
+236,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",23880,478764,40
+236,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8907,487673,41
+236,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12122,511030,43
+236,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7441,527643,45
+236,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7327,534972,46
+236,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6267,551331,48
+236,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8814,560148,49
+236,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7157,567306,50
+236,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10302,577612,51
+236,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8135,595962,53
+236,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7427,603391,54
+236,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7084,610476,55
+236,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7963,618442,56
+236,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6287,631187,58
+236,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8863,640053,59
+236,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",13373,661463,61
+236,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14088,675552,62
+236,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8347,695421,64
+236,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10304,705726,65
+236,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4951,725351,67
+236,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10032,744834,69
+236,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11520,763012,71
+231,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7489,7491,0
+231,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8535,16031,1
+231,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6768,22802,2
+231,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4791,27595,3
+231,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",11612,39209,4
+231,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8054,47265,5
+231,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7243,54511,6
+231,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4576,73371,8
+231,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5643,86562,10
+231,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5338,100731,12
+231,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5505,118612,14
+231,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",5486,131259,16
+231,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",15944,155500,18
+231,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5881,161382,19
+231,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7433,168818,20
+231,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7623,183841,22
+231,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4408,188252,23
+231,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10429,206349,25
+231,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12742,226182,27
+231,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7274,233459,28
+231,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",4643,246796,30
+231,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9579,263623,32
+231,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7583,271208,33
+231,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4923,283302,35
+231,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14037,305569,37
+231,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5299,318117,39
+231,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10267,328385,40
+231,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4232,332622,41
+231,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10619,343244,42
+231,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5921,357188,44
+231,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6900,364089,45
+231,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6129,378279,47
+231,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10221,388502,48
+231,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6170,394673,49
+231,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8353,411580,51
+231,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7090,432485,53
+231,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11574,452102,55
+231,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4736,463217,57
+231,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5713,468933,58
+231,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4140,481114,60
+231,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4646,485762,61
+231,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4427,495411,63
+231,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8223,503636,64
+231,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5773,509411,65
+231,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5812,515225,66
+231,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5822,521048,67
+231,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7977,535987,69
+231,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5517,547607,71
+228,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",10201,10204,0
+228,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8922,19129,1
+228,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7593,26724,2
+228,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6857,33582,3
+228,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8178,41761,4
+228,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8474,50237,5
+228,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12795,63033,6
+228,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8478,85649,8
+228,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10814,105749,10
+228,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10171,130419,12
+228,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",19460,149881,13
+228,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8088,171416,15
+228,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10589,191486,17
+228,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8583,200070,18
+228,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7616,218736,20
+228,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6746,233621,22
+228,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8791,251221,24
+228,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5408,264600,26
+228,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5380,276230,28
+228,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6603,292925,30
+228,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8894,308023,32
+228,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6495,314519,33
+228,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8159,322680,34
+228,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7961,330642,35
+228,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",20853,351496,36
+228,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9710,370092,38
+228,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14290,384383,39
+228,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8618,411277,41
+228,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12013,431770,43
+228,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5336,437107,44
+228,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13298,450406,45
+228,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6159,467206,47
+228,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8692,475900,48
+228,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7486,483388,49
+228,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9829,493218,50
+228,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14998,508217,51
+228,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8253,525279,53
+228,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7091,542458,55
+228,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7401,559417,57
+228,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5532,573318,59
+228,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12842,586161,60
+228,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6088,601299,62
+228,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5468,616427,64
+228,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8711,625139,65
+228,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7146,639972,67
+228,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6906,646879,68
+228,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6733,663152,70
+228,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8550,671704,71
+225,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6037,6040,0
+225,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9175,15220,1
+225,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6229,21452,2
+225,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",11917,33372,3
+225,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6488,39863,4
+225,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5576,45441,5
+225,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7338,52782,6
+225,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6931,59716,7
+225,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4095,63814,8
+225,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8833,77770,10
+225,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6657,84431,11
+225,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5883,98946,13
+225,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",19865,118814,14
+225,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7824,126641,15
+225,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5337,146063,17
+225,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4022,150087,18
+225,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8338,164863,20
+225,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4774,169640,21
+225,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9674,185016,23
+225,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",8620,193639,24
+225,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",15605,216867,26
+225,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4856,237249,28
+225,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8341,259101,30
+225,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5402,270966,32
+225,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6096,287478,34
+225,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7850,301412,36
+225,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8481,323377,38
+225,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6478,329858,39
+225,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7841,337701,40
+225,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8957,346661,41
+225,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5004,362424,43
+225,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5018,367445,44
+225,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7902,380207,46
+225,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4521,400323,48
+225,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7881,415733,50
+225,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12433,436008,52
+225,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7968,452279,54
+225,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4659,466013,56
+225,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6562,478768,58
+225,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5647,484418,59
+225,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10441,505108,61
+225,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5752,519054,63
+225,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9354,528411,64
+225,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",14139,542552,65
+225,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5379,556830,67
+225,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",11064,574282,69
+225,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8890,583177,70
+225,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7402,590581,71
+224,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9749,9753,0
+224,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7855,17610,1
+224,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6105,23717,2
+224,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6871,30593,3
+224,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7792,38388,4
+224,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9665,48055,5
+224,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5581,67651,7
+224,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7581,82537,9
+224,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",16193,98732,10
+224,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6721,112026,12
+224,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5322,117351,13
+224,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4727,128078,15
+224,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5763,142946,17
+224,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4158,147107,18
+224,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5840,163392,20
+224,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5804,169198,21
+224,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7779,176979,22
+224,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4532,188412,24
+224,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10518,198933,25
+224,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4484,212359,27
+224,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7161,219523,28
+224,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4799,230132,30
+224,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6771,236905,31
+224,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4126,245846,33
+224,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6394,258153,35
+224,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7046,271602,37
+224,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10199,297033,39
+224,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5992,303030,40
+224,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8805,311838,41
+224,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5463,322452,43
+224,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7768,336491,45
+224,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4372,347054,47
+224,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7526,354583,48
+224,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5875,360459,49
+224,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6924,374813,51
+224,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",8837,393544,53
+224,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8081,401628,54
+224,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9514,411146,55
+224,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6593,423104,57
+224,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",3867,432641,59
+224,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4866,437511,60
+224,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6639,444151,61
+224,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6524,456562,63
+224,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4396,465359,65
+224,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12588,477951,66
+224,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4833,482788,67
+224,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11276,501146,69
+224,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4763,511776,71
+223,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9089,9092,0
+223,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6082,15177,1
+223,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11969,27147,2
+223,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",14286,41435,3
+223,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7319,48757,4
+223,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",11612,60371,5
+223,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7187,67559,6
+223,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5520,84699,8
+223,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10233,107351,10
+223,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4547,122949,12
+223,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10909,140901,14
+223,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5178,156477,16
+223,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9507,165985,17
+223,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5368,171355,18
+223,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6186,186922,20
+223,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14920,209376,22
+223,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7486,226254,24
+223,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7637,233894,25
+223,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6184,240080,26
+223,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5150,261404,28
+223,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6330,267735,29
+223,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4238,271975,30
+223,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",18344,298348,32
+223,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4668,303018,33
+223,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",24732,327752,34
+223,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7872,335626,35
+223,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13266,357351,37
+223,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6952,364306,38
+223,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",13865,389502,40
+223,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",13128,410792,42
+223,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9486,441088,44
+223,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",4266,445355,45
+223,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9989,461826,47
+223,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6896,476183,49
+223,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",22472,503640,51
+223,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",3622,513642,53
+223,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9090,522734,54
+223,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6050,539848,56
+223,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5876,545726,57
+223,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4295,560676,59
+223,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",15848,576526,60
+223,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9511,592258,62
+223,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8645,608000,64
+223,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6839,622848,66
+223,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",4783,627632,67
+223,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6935,646800,69
+223,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7271,654072,70
+223,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6257,660330,71
+222,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10017,10020,0
+222,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",12927,22957,1
+222,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8119,31083,2
+222,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11577,42668,3
+222,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7438,50113,4
+222,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7417,57535,5
+222,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",24756,82297,6
+222,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",9294,91596,7
+222,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9312,114603,9
+222,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7671,122280,10
+222,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8460,142149,12
+222,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7096,149250,13
+222,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14141,163397,14
+222,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6597,177559,16
+222,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7496,185059,17
+222,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4668,189732,18
+222,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9939,210311,20
+222,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5591,215907,21
+222,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9547,233278,23
+222,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",9902,254447,25
+222,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6017,271705,27
+222,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",7610,279320,28
+222,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",3931,283257,29
+222,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",13419,304983,31
+222,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12401,326573,33
+222,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7087,333665,34
+222,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9125,353881,36
+222,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6888,360772,37
+222,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9702,377516,39
+222,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8606,392393,41
+222,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6446,398844,42
+222,"f17_1_2","f17",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6391,412926,44
+222,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",12448,434207,46
+222,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6499,447407,48
+222,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",5177,460347,50
+222,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",5236,473387,52
+222,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",13651,495552,54
+222,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",4666,500224,55
+222,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",6355,519959,57
+222,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7697,527659,58
+222,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",9697,550184,60
+222,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",4877,555066,61
+222,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6749,561819,62
+222,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7239,574915,64
+222,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9263,592098,66
+222,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7946,609706,68
+222,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",9599,625954,70
+222,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7519,633478,71
+221,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",17755,17756,0
+221,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10811,28570,1
+221,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",12216,40788,2
+221,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8072,48860,3
+221,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",10216,59077,4
+221,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9974,69052,5
+221,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",16932,85986,6
+221,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",10967,111035,8
+221,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",18763,129799,9
+221,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",11258,163308,11
+221,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13220,176529,12
+221,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",9719,201971,14
+221,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10719,228094,16
+221,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6749,244737,18
+221,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11506,267924,20
+221,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10180,295381,22
+221,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10130,315570,24
+221,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",6457,331640,26
+221,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9813,351523,28
+221,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9108,360632,29
+221,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",13998,374631,30
+221,"f19_1_2","f19",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8983,401192,32
+221,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13001,414194,33
+221,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7203,429130,35
+221,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11090,440221,36
+221,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6868,460529,38
+221,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",6421,466950,39
+221,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",6384,473336,40
+221,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9371,482708,41
+221,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",8021,500707,43
+221,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7549,508257,44
+221,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",6740,523864,46
+221,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7913,541353,48
+221,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7319,555346,50
+221,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",12420,567767,51
+221,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",7919,584724,53
+221,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8092,592817,54
+221,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7326,617454,56
+221,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",11632,641797,58
+221,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10120,651918,59
+221,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8159,660078,60
+221,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5132,684235,62
+221,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9645,693881,63
+221,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",8814,711064,65
+221,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9071,720136,66
+221,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",9299,738872,68
+221,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10323,760949,70
+221,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",10708,771658,71
+220,"f23_1_2","f23",1,2,"calibration","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",11314,11316,0
+220,"f45_1_3","f45",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",7164,18482,1
+220,"f36_1_3","f36",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7204,25688,2
+220,"f28_1_3","f28",1,3,"calibration","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",7908,33598,3
+220,"f38_1_3","f38",1,3,"calibration","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4328,37927,4
+220,"f29_1_2","f29",1,2,"calibration","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",7857,45785,5
+220,"f24_1_2","f24",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8380,54167,6
+220,"f02_1_2","f02",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7596,77526,8
+220,"f25_1_3","f25",1,3,"filler","pseudo_windef","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",6784,95530,10
+220,"f18_1_2","f18",1,2,"control","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8481,110033,12
+220,"f35_1_3","f35",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5942,115976,13
+220,"f05_1_2","f05",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5453,128476,15
+220,"f47_1_3","f47",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14497,153676,17
+220,"f11_1_2","f11",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5854,175843,19
+220,"f44_1_3","f44",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",4934,185583,21
+220,"f15_1_2","f15",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",5774,191358,22
+220,"f26_1_2","f26",1,2,"attention","pseudo_windef/TEMP","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",21625,212986,23
+220,"f14_1_2","f14",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4768,226934,25
+220,"f27_1_3","f27",1,3,"filler","pseudo_windef/CC","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10432,237367,26
+220,"f07_1_2","f07",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",4518,246600,28
+220,"f43_1_2","f43",1,2,"attention","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",30375,281981,30
+220,"f19_1_2","f19",1,2,"control","related","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8397,298111,32
+220,"f30_1_3","f30",1,3,"filler","pseudo_manner/COM","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8690,312180,34
+220,"f03_1_2","f03",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",7235,319416,35
+220,"f48_1_2","f48",1,2,"attention","unrelated","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",13755,348236,37
+220,"f13_1_2","f13",1,2,"control","unrelated","SUBJ OBJ",1,"below","*OBJ SUBJ >> SUBJ OBJ","condition 2 >> condition 1",4985,359441,39
+220,"f34_1_3","f34",1,3,"filler","unrelated (pseudo_TEMP/CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",14820,380560,41
+220,"f12_1_2","f12",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",15169,395730,42
+220,"f40_1_3","f40",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",9026,404757,43
+220,"f06_1_2","f06",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",5001,409759,44
+220,"f33_1_3","f33",1,3,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",10185,425089,46
+220,"f16_1_2","f16",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",7950,433041,47
+220,"f31_1_3","f31",1,3,"filler","unrelated","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8908,446914,49
+220,"f17_1_2","f17",1,2,"control","related","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",8374,455289,50
+220,"f32_1_2","f32",1,2,"filler","unrelated (pseudo_TEMP)","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",8736,464027,51
+220,"f08_1_2","f08",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",6292,475141,53
+220,"f21_1_3","f21",1,3,"filler","pseudo_windef","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",5307,480449,54
+220,"f04_1_2","f04",1,2,"control","related","SUBJ OBJfix",1,"below","*OBJfix SUBJ >> SUBJ OBJfix","condition 2 >> condition 1",5531,494955,56
+220,"f39_1_2","f39",1,2,"filler","pseudo_manner/INSTR","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",14526,513490,58
+220,"f01_1_2","f01",1,2,"control","related","SUBJ OBJfix",1,"above","SUBJ OBJfix >> *OBJfix SUBJ","condition 1 >> condition 2",7517,527874,60
+220,"f41_1_3","f41",1,3,"filler","unrelated (pseudo_CC)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",8512,536388,61
+220,"f10_1_2","f10",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",6626,543015,62
+220,"f37_1_2","f37",1,2,"attention","pseudo_COM/manner","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",13134,563223,64
+220,"f20_1_2","f20",1,2,"control","unrelated","grammatical",1,"below","* >> grammatical","condition 2 >> condition 1",5663,568888,65
+220,"f22_1_2","f22",1,2,"attention","pseudo_windef","grammatical",1,"above","grammatical >> *","condition 1 >> condition 2",9398,578288,66
+220,"f09_1_2","f09",1,2,"control","unrelated","SUBJ OBJ",1,"above","SUBJ OBJ >> *OBJ SUBJ","condition 1 >> condition 2",10810,592568,68
+220,"f42_1_3","f42",1,3,"filler","unrelated (pseudo_manner)","grammatical",1,"above","grammatical >> ?","condition 1 >> condition 3",16765,609335,69
+220,"f46_1_3","f46",1,3,"filler","unrelated","grammatical",1,"below","? >> grammatical","condition 3 >> condition 1",8878,625199,71

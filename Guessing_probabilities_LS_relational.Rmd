@@ -1,0 +1,221 @@
+---
+title: "Guessing probabilities on relational accounts"
+author: "Jutta Pieper"
+date: "28.04.2022"
+output: 
+  html_document:
+    keep_md: yes
+bibliography: references/bibliography.bibtex
+csl: references/apa.csl
+link-citations: true
+params:
+  ls_pt: 5
+  ls_neutral: 3
+  no_events_max: 8
+---
+
+```{r setup, echo = FALSE, warning = FALSE, , message = FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+options(knitr.kable.NA = "")
+kable <- function(data, ...) {
+   knitr::kable(data, digits=3, ...) %>% kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
+}
+knit_print.data.frame <- function(x, ...) {
+  res <- paste(c("", "", kable(x)), collapse = "\n")
+  asis_output(res)
+}
+registerS3method("knit_print", "data.frame", knit_print.data.frame)
+```
+
+
+The aim of this report is to estimate the chances of guessing participants to pass control trials on relational accounts. Determining these probabilities  is analogous to estimating the FC guessing probabilities: We determine the proportion of outcomes out of the number of possible outcomes under which the decision criterion is fulfilled.  
+
+To allow for comparisons of mean values,  we consider a pair of responses (i.e. to a single grammatical and to a single ungrammatical stimulus) as one event. Note that to allow for computing guessing probabilities  for the approach of @Zanuttini_et_al_2018, 
+who reject participants who used the wrong side of scale (excluding the neutral point) at least once,
+we determine if there are any slips simultaneously.[^1]
+
+[^1]: They further do not tolerate participants with an average rating $> 2$ for ungrammatical and $< 4$ for grammatical control items.
+
+```{r events}
+events = expand.grid(
+    pairs = 1, 
+    response_grammatical = c(1:params$ls_pt), # 5, 5-pt-LS 
+    response_ungrammatical = c(1:params$ls_pt)
+  ) %>%
+  mutate(
+      slips = (response_grammatical < params$ls_neutral | # 3 on a 5-pt-LS
+               response_ungrammatical > params$ls_neutral), 
+      count = 1  # later used for aggregating 
+  )
+```
+
+On a 5-pt-\ac{LS}, there are 25 different outcomes, i.e. 25 different ways to respond to two trials (i.e. <1-1>, ..., <5-5>)
+For each of these possible outcomes, we compute mean values for grammatical and ungrammatical trials, and the proportion of the optimal distance ($s$), 
+i.e., 
+\begin{align}
+s = \frac{\text{mean}(grammatical) - \text{mean}(ungrammatical)}{\max(LS rating) - \min(LS rating)},
+\label{eq:LS_accounts_OPT_DIST}
+\end{align}
+in order to  decide whether the distance between conditions is acceptable under **relational account**, i.e. $> 0$ and under the **extended relational account**, i.e. $\geq 0.5$. Additionally, we decide whether the distance between conditions is acceptable under the approach of @Zanuttini_et_al_2018.
+
+```{r}
+eval_first = events %>% 
+  mutate(mean_grammatical = response_grammatical/pairs,
+         mean_ungrammatical = response_ungrammatical/pairs,
+         acceptance_rel = mean_grammatical > mean_ungrammatical,
+         score = (mean_grammatical - mean_ungrammatical) / (params$ls_pt - 1),
+         acceptance_rel_ext = score >= 0.5, 
+         acc_zanuttini = mean_grammatical >= 4 & mean_ungrammatical <= 2 & slips==0 
+  ) %>%   
+  ## only for printing
+  select(-count, -starts_with("response"))
+```
+
+
+```{r}
+eval_first %>% slice_head(n=5) %>% kable()
+```
+
+
+```{r}
+eval_first %>% slice_tail(n=5) %>% kable()
+```
+ 
+Under the assumption that each outcome is equally probable when responding randomly, we can estimate the probabilities to pass control trials by chance  by  determining the proportion of outcomes passing the decision criteria  under a certain amount of pairs.
+
+The evaluation of the possible outcomes of the first pair looks like this:
+
+```{r message = FALSE}
+evaluate_outcomes = function(outcomes_table){
+ outcomes_table %>% 
+  ## evaluate individual outcomes
+  mutate(mean_grammatical = response_grammatical/pairs,
+         mean_ungrammatical = response_ungrammatical/pairs,
+         acceptance_rel = mean_grammatical > mean_ungrammatical,
+         score = (mean_grammatical - mean_ungrammatical) / (params$ls_pt - 1),
+         acceptance_rel_ext = score >= 0.5, 
+         acc_zanuttini = mean_grammatical >= 4 & mean_ungrammatical <= 2 & slips==0 
+  ) %>% 
+  ## select relevant columns, and transform from wide to long format
+  select(pairs, starts_with("acc"), count) %>%
+  gather(key = "criterion", value = "acceptance", -pairs, -count ) %>% 
+  ## determining the proportion of outcomes passing the decision criteria 
+  ## for different amount of pairs and different criteria
+  group_by(pairs, criterion, acceptance) %>% 
+  summarise(n = sum(count)) %>% 
+  spread(key = acceptance, value = n) %>%
+  rename(rejected = "FALSE", accepted = "TRUE") %>%
+  mutate(props_acc = round(accepted/(accepted+rejected), digits = 4)) %>%
+  mutate(outcomes = rejected+accepted) 
+}
+```
+
+
+```{r message = FALSE}
+eval_all = evaluate_outcomes(events)
+```
+
+```{r echo = FALSE}
+eval_all %>% kable()
+```
+
+
+For the evaluation of two events (e.g. four control trials, thereof  two grammatical and two ungrammatical), we need to consider every possible combination of events, resulting in an outcome (of two events). All combinations of these amount to 625 possible  outcomes for two pairs of trials    (e.g. <1-1, 1-1>, ..., <5-5, 5-5>). 
+
+```{r}
+outcomes_prev = events 
+events = events %>% mutate(count = 0)
+```
+
+As the number of outcomes grows fast, we compute the sum of responses to grammatical and ungrammatical stimuli right away.
+
+```{r}
+generate_new_outcomes = function(previous_outcomes, events){
+  outcomes_new = data.frame()
+  for(r in c(1:nrow(previous_outcomes))){
+    out = previous_outcomes[r,]
+    for(e in c(1:nrow(events))){
+      ## cell values are added up
+      new_out = out + events[e,]
+      outcomes_new = plyr::rbind.fill(outcomes_new, new_out)
+    }
+  }
+  return(outcomes_new)
+}
+```
+
+Generated outcomes for two pairs: 
+```{r}
+two_events = generate_new_outcomes(outcomes_prev, events) 
+```
+
+Before going on, we compress the table (using the `count` variable, giving the amount of outcomes with the same results, for aggregating), as there are outcomes with the same characterstics, i.e. sums of response values: 
+
+```{r}
+two_events %>% arrange(response_grammatical, response_ungrammatical) %>% head() %>% kable()
+```
+
+As we do not need to know the exact amount of slips, but only if any exist, we discard the exact amount to allow for stronger compression.
+
+```{r}
+summarize_outcomes = function(outcomes){
+  outcomes %>%
+        ## we are not interested in exact amounts of slips
+        mutate(slips = ifelse(slips>0, TRUE,FALSE)) %>%
+        dplyr::group_by(pairs, response_grammatical, response_ungrammatical, slips) %>%
+        dplyr::summarise(count = sum(count)) %>%
+        ungroup()
+}
+```
+
+```{r message = FALSE}
+two_events_comprised = summarize_outcomes(two_events)
+head(two_events_comprised) %>% kable()
+```
+
+This reduced the number of rows from `r nrow(two_events)` to `r nrow(two_events_comprised)`.
+Note: this also reduces the amount of outcomes computed for three pairs of events from  
+`r format(nrow(two_events) * 25, big.mark = ",")`  to  `r format(nrow(two_events_comprised) * 25, big.mark = ",")`. 
+
+We repeat this produces until we reach the desired maximal amounts of pairs, whereby evaluating outcomes of each amount of pairs:
+
+```{r message = FALSE}
+# eval_all already contains evaluation for responses to a single pair
+for(p in c(2:params$no_events_max)){
+  outcomes_new = generate_new_outcomes(outcomes_prev, events) %>%
+                  summarize_outcomes() 
+  outcomes_new_eval = evaluate_outcomes(outcomes_new)
+  eval_all = rbind(eval_all, outcomes_new_eval)
+  outcomes_prev = outcomes_new
+}
+```
+
+Giving us evaluations for the amount of pairs in the range 1 - `r params$no_events_max`
+
+
+```{r echo = FALSE, message = FALSE}
+eval_all %>% 
+  mutate_if(is.numeric, format, big.mark = ",") %>%
+  DT::datatable(rownames = FALSE, options = list(
+            columnDefs = list(list(className = 'dt-right', targets = 2:5))
+            ))
+```
+
+Tidying up results in: 
+
+```{r echo = FALSE}
+eval_all %>%
+  filter(criterion != "acc_zanuttini") %>% 
+  select(-rejected,-accepted) %>% 
+  spread(key = criterion, value = props_acc) %>% 
+  relocate(acceptance_rel, .after = "outcomes") %>%
+  rename("s > 0" = "acceptance_rel", "s > 0.5" = "acceptance_rel_ext") %>%
+  mutate(outcomes = format(outcomes, big.mark = ",")) %>% 
+  kable(caption = "Table 5 in @Pieper_et_al_2022", align='r') %>%
+  add_header_above(c("","","pure:","extended:")) 
+```
+
+# References
+
